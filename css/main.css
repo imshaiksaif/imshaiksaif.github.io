@@ -1,0 +1,50 @@
+body {
+    background-color: #f5f5dc;
+    font-family: 'Saira Semi Condensed', sans-serif;
+}
+
+
+#mainNavBar {
+    font-size: 1.5rem;
+    font-weight: 100;
+}
+
+#mainNavBar .nav-link {
+    color: white;
+}
+
+#mainNavBar .nav-link:hover {
+    color: #ea1c2c;
+}
+
+#mainNavBar .navbar-brand {
+    color: #ea1c2c;
+    font-size: 1.5rem;
+}
+
+/* .footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+} */
+
+footer, footer a {
+    background-color: black;
+    color: white;
+    
+}
+
+footer a:visited, footer a:hover {
+    color: #ea1c2c;
+    text-decoration: none;
+}
+
+/* mediaQueries */
+@media (max-width: 1200px) {
+#headingGroup h1 {
+    font-weight: 100;
+    font-size: 3rem;
+}
+}
